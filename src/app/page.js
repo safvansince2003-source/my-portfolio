@@ -35,7 +35,7 @@ export default function Home() {
         .order("created_at", { ascending: true });
 
       if (error) {
-        console.error("Error loading projects:", error.message);
+        console.error("Error loading projects:", error);
         setProjectsError(error.message);
         setProjects([]);
       } else {
