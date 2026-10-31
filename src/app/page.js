@@ -616,6 +616,22 @@ export default function Home() {
                   Palakkad, Kerala, India
                 </p>
               </div>
+
+              <div>
+                <p className="text-xs uppercase tracking-widest text-zinc-500">
+                  Instagram
+                </p>
+                <a
+                  href="https://www.instagram.com/safwan.web/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Visit my Instagram profile"
+                  className="mt-2 inline-flex items-center gap-2 text-base text-white transition hover:text-lime-400"
+                >
+                  @safwan.web
+                  <span aria-hidden="true">↗</span>
+                </a>
+              </div>
             </div>
           </div>
 
