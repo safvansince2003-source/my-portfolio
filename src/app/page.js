@@ -36,7 +36,7 @@ export default function Home() {
 
       if (error) {
         console.error("Error loading projects:", error.message);
-        setProjectsError("Unable to load projects right now.");
+        setProjectsError(error.message);
         setProjects([]);
       } else {
         setProjects(data || []);
